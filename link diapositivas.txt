@@ -1,0 +1,173 @@
+https://docs.google.com/presentation/d/12NMsOeOEEa0XFeD5MNs368S4aOLk-XX9ifA5tXBQi-c/edit#slide=id.g13352363bad_1_1
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Andreina</title>
+    <link rel="stylesheet" href="estilos.css">
+    <STYle>
+      /*
+      P {
+            color:crimson;
+            background:black;
+        }
+        h1 {
+            color: rgb(120, 34, 155);
+        }
+        /*Estilizado de ID
+        #sub {color:rgb(26, 121, 175);
+        }
+        .titulares {color: darkorange;
+        background-color: chartreuse;
+        } 
+        */
+    </STYle>
+</head>
+<body>
+    <!--Parrafo-->
+    <p>HOLA MUNDO</p>
+    <!--Titulares-->
+    <h1>Esto es un titular</h1>
+    <h2 id="sub">Esto es un subtitulo</h2>
+    <h3 class="titulares">Titulo menos importante</h3>
+    <h4 class="titulares">Titulo aun menos importante</h4>
+    <h5>Ya esto casi ni se utiliza</h5>
+    <h6>Titulo extremadamente mas peque;o</h6>
+    <!--Link-->
+    <a href="https://www.youtube.com/" target="_blank">Ir a Youtube</a>
+    <!--Imagen-->
+    <img width="500px" 
+    src="../HTML/Coldplay.jpg"
+    alt="Coldplay">
+    <!--Lista no organizadas-->
+    <ul>
+        <li>Guitarra</li>
+        <li>Bateria</li>
+        <li>Bajo</li>
+        <li>Microfono</li>
+    </ul>
+    <!--Lista organizada-->
+    <ol>
+        <li>Colocarla en el lugar de tu preferencia</li>
+        <li>Asegurarse que este conectado</li>
+        <li>Darle a boton de OK</li>
+    </ol>
+    <!--Divisiones-->
+    <div style="color:red;"> 
+        
+            <p>Banda de Rock</p>
+            <h1>WORLD TOUR</h1>
+            <img width="500px" 
+            src="../HTML/Coldplay.jpg" 
+            alt="Coldplay">
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contactanos</title>
+        <link rel="stylesheet" href="contact-us.css">
+    </head>
+    <body class="example">
+        <p>Hola Mundo</p>
+        <h1>Esto es un titular</h1>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+css
+
+p {
+    color: darkblue;
+    background-color: rgb(255, 128, 0); /Red,green,blue/
+    /* border: 5px solid red; forma rapida*/
+    border-width: 5px;
+    border-color: chartreuse;
+    border-style: groove;
+    /margin: 100px; afecta todos los lados/
+    /*margin: 0 100px; afecta horizontalmente o verticalmente */
+    /margin: 50px 0 50px 0;/
+    padding: 35px;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration-line: underline;
+    text-shadow: 1px 1px 5px red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    /display: inline;/
+    position: sticky; /posicion del elemento, donde se ubica en la pantalla/
+}
+
+
+h1 {
+    display: inline;
+    height: 999999px;
+}
+
+
+body {
+    background-color: rgba(237, 12, 12, 0.524);
+    color: #fff;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .example {background: red;}
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 601px) {
+    .example {background: green;}
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .example {background: blue;}
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .example {background: orange;}
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .example {background: pink;}
+  }
+
+
+
+
+
+
+P {
+    color:crimson;
+    background:black;
+}
+h1 {
+    color: rgb(120, 34, 155);
+}
+/*Estilizado de ID*/
+#sub {color:rgb(26, 121, 175);
+}
+.titulares {color: darkorange;
+background-color: chartreuse;
+}

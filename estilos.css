@@ -1,0 +1,13 @@
+P {
+    color:crimson;
+    background:black;
+}
+h1 {
+    color: rgb(120, 34, 155);
+}
+/*Estilizado de ID*/
+#sub {color:rgb(26, 121, 175);
+}
+.titulares {color: darkorange;
+background-color: chartreuse;
+}
